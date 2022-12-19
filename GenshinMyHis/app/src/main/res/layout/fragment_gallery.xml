@@ -34,21 +34,30 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageButton
+                android:id="@+id/imageButton26"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/blue" />
+
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:text="Animes"
-                android:textAlignment="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Lançamentos"
+                android:textAlignment="gravity"
                 android:textColor="#FFFFFF"
-                android:textSize="34sp"
+                android:textSize="28dp"
                 android:textStyle="bold" />
 
             <ScrollView
                 android:layout_width="422dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="-4dp">
@@ -64,8 +73,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton31"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginRight="10dp"
                             android:background="@drawable/adraken"
@@ -74,8 +83,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton41"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/ademon"
                             tools:layout_editor_absoluteX="25dp"
@@ -84,8 +93,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton51"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/adun"
                             tools:layout_editor_absoluteX="172dp"
@@ -93,8 +102,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton61"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/auru"
                             tools:layout_editor_absoluteX="246dp"
@@ -102,8 +111,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton71"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/ayu"
                             tools:layout_editor_absoluteX="321dp"
@@ -111,8 +120,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton91"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
 
                             android:layout_marginRight="10dp"
@@ -121,8 +130,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton101"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
 
                             android:layout_marginRight="10dp"
@@ -134,11 +143,22 @@
                 </HorizontalScrollView>
             </ScrollView>
 
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Favoritos"
+                android:textAlignment="gravity"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
 
             <ScrollView
                 android:layout_width="417dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="-4dp">
@@ -154,8 +174,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton333"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginRight="15dp"
                             android:background="@drawable/adraken"
@@ -164,8 +184,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton433"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/ademon"
                             tools:layout_editor_absoluteX="25dp"
@@ -174,8 +194,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton533"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/adun"
                             tools:layout_editor_absoluteX="172dp"
@@ -183,8 +203,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton633"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/auru"
                             tools:layout_editor_absoluteX="246dp"
@@ -192,8 +212,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton733"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/ayu"
                             tools:layout_editor_absoluteX="321dp"
@@ -201,8 +221,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton93"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
 
                             android:layout_marginRight="10dp"
@@ -211,8 +231,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton9"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
 
                             android:layout_marginRight="10dp"
@@ -224,10 +244,22 @@
                 </HorizontalScrollView>
             </ScrollView>
 
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Contiune Assistindo"
+                android:textAlignment="gravity"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
             <ScrollView
                 android:layout_width="417dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="-4dp">
@@ -243,8 +275,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton33"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginRight="15dp"
                             android:background="@drawable/adraken"
@@ -253,8 +285,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton43"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/ademon"
                             tools:layout_editor_absoluteX="25dp"
@@ -263,8 +295,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton53"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/adun"
                             tools:layout_editor_absoluteX="172dp"
@@ -272,8 +304,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton63"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/auru"
                             tools:layout_editor_absoluteX="246dp"
@@ -281,8 +313,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton73"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
                             android:background="@drawable/ayu"
                             tools:layout_editor_absoluteX="321dp"
@@ -290,8 +322,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton99"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
 
                             android:layout_marginRight="10dp"
@@ -300,8 +332,8 @@
 
                         <ImageButton
                             android:id="@+id/imageButton19"
-                            android:layout_width="140dp"
-                            android:layout_height="180dp"
+                            android:layout_width="125dp"
+                            android:layout_height="170dp"
                             android:layout_marginEnd="10dp"
 
                             android:layout_marginRight="10dp"
@@ -313,15 +345,7 @@
                 </HorizontalScrollView>
             </ScrollView>
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="143dp"
-                android:layout_height="44dp"
-                android:layout_marginTop="28dp"
-                android:text="TextView"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+
 
 
         </LinearLayout>
