@@ -59,7 +59,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="42dp"
+                android:layout_marginLeft="47dp"
                 android:layout_marginTop="-20dp"
                 android:text="Visão Geral dos dados"
                 android:textColor="#FFFFFF"
@@ -117,7 +117,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="45dp"
+                android:layout_marginLeft="47dp"
                 android:layout_marginTop="-20dp"
                 android:text="Meus Personagens"
                 android:textColor="#FFFFFF"
@@ -366,7 +366,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="47dp"
                 android:layout_marginTop="-20dp"
                 android:text="Chamado dos sete"
                 android:textColor="#FFFFFF"
@@ -397,7 +397,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="47dp"
                 android:layout_marginTop="-20dp"
                 android:text="Exploração Mundial"
                 android:textColor="#FFFFFF"
@@ -426,7 +426,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="47dp"
                 android:layout_marginTop="-22dp"
                 android:text="Abismo"
                 android:textColor="#FFFFFF"
@@ -442,12 +442,6 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/a1671396394262" />
-
-            <ImageButton
-                android:id="@+id/imageButton27"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher_foreground" />
 
 
         </LinearLayout>
